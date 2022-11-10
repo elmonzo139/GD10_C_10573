@@ -1,0 +1,9 @@
+package com.example.gd10_c_10573
+
+data class MahasiswaData(
+    @SerializedName("mhsnobp") val nim:String,
+    @SerializedName("mhsnama") val nama:String,
+    @SerializedName("mhsalamat") val alamat:String,
+    @SerializedName("prodinama") val prodi:String,
+    @SerializedName("mhstgllhr") val tgllhr:String,
+)
